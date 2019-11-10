@@ -1,0 +1,76 @@
+<html>
+
+<head>
+	<title>Cetis</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+
+	<script type="text/javascript" src="index.js"></script>
+</head>
+<style>
+	body {
+		background-color: darkslategrey
+	}
+</style>
+
+<body onLoad="start();">
+	<div id="container">
+
+		<span id="leftpane" class="pane">
+			<img class="image" name="cetmeja" id="img1" src="" onclick="cetemja1()" width="280" height="400" />
+		</span>
+
+
+		<span id="or">
+			<h2>Or</h2>
+		</span>
+
+		<span id="rightpane" class="pane" onClick="change(2)">
+			<img class="image" name="numero" id="img2" onclick="cbtis()" src="" width="280" height="400" />
+
+		</span>
+
+		<a id="rank" href="rankings.html">Rankings</a>
+	</div>
+
+	<script language="javascript">
+
+		function cbtis() {//funcion hola
+			var imagenes = new Array();
+			imagenes[0] = "/Imagenes/hola.jpg";
+			imagenes[1] = "/Imagenes/0001.jpg";
+			var indice = parseInt(Math.random() * (7 - 1) + 0);
+
+			document.images["numero"].src = imagenes[indice];
+			alert("Gana Derecha");
+
+
+
+		}// cierre funcion hola
+
+	</script>
+	<script language="javascript">
+
+		function cetemja1() {//funcion hola
+			var imagenes1 = new Array();
+			imagenes1[0] = "/Imagenes/imag1.jpg";
+			imagenes1[1] = "/Imagenes/imag2.jpg";
+			imagenes1[2] = "/Imagenes/imag1.jpg";
+			imagenes1[3] = "/Imagenes/imag2.jpg";
+			imagenes1[4] = "/Imagenes/imag1.jpg";
+			imagenes1[5] = "/Imagenes/imag2.jpg";
+			imagenes1[6] = "/Imagenes/imag1.jpg";
+			imagenes1[7] = "/Imagenes/imag2.jpg";
+
+
+			var indice1 = parseInt(Math.random() * (7 - 1) + 1);
+			document.images["cetmeja"].src = imagenes1[indice1];
+			alert("Gana Izquierda");
+
+
+
+		}// cierre funcion hola
+
+	</script>
+</body>
+
+</html>

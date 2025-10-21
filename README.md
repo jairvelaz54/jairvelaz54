@@ -57,16 +57,7 @@ Soy **Desarrollador Full Stack** apasionado por crear aplicaciones web y móvile
 
 ## 📈 Estadísticas de GitHub
 
-![Jair's GitHub stats](https://github-readme-stats.vercel.app/api?username=TU-USUARIO&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=TU-USUARIO&layout=compact&theme=radical)
+![Jair's GitHub stats](https://github-readme-stats.vercel.app/api?username=jairvelaz54&show_icons=true&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jairvelaz54&layout=compact&theme=radical)
 
----
 
-## 🔗 Proyectos Destacados
-
-- [Intagri - Backend & Web](#)  
-- [Gotchu! App](#)  
-- [Proyecto Contigo Banxico](#)  
-- [Sistema de Avalúos](#)  
-
-> Más proyectos en mi perfil de GitHub.
